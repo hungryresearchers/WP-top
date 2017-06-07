@@ -1,0 +1,43 @@
+#header {
+  height: 80vh;
+  width: 100%;
+  background-image: url(http://hungryresearch.com/cel-lisboa-60315.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  overflow: hidden;
+}
+#header:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  -o-filter: blur(30px);
+  -ms-filter: blur(30px);
+  filter: blur(30px);
+  position: absolute;
+  /*ブラー効果で画像の端がボヤけた分だけ位置を調整*/
+  z-index: -1;/*重なり順序を一番下にしておく*/
+}
+
+form {
+  opacity: 1;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    color: none;
+}
+.form-style{
+  opacity: 1;
+
+}
