@@ -54,7 +54,7 @@ body { font-family: 'M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) R
   color: white;
   background-image: none;
   background-color: transparent;
-  width: 30%;
+  width: 80%;
   max-width: 300px;
   border: none;
   height: 50px;
@@ -135,4 +135,12 @@ body { font-family: 'M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) R
   text-decoration: none;
   color: rgb(186, 174, 174);
   opacity: 0.5;
+}
+
+.fa-ul {
+  padding-top: 30px;
+}
+
+.fa-ul li{
+  padding-top: 10px;
 }
