@@ -1,3 +1,7 @@
+
+body { font-family: 'M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) Regular', sans-serif;}
+
+
 #header {
   height: 80vh;
   width: 100%;
@@ -21,23 +25,114 @@
   z-index: -1;/*重なり順序を一番下にしておく*/
 }
 
-form {
-  opacity: 1;
-  padding-top: auto;
-  padding-bottom: auto;
-  margin: 0 auto;
-  text-align: center;
-  width: 100px;
-    height: 50px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: auto;
-    color: none;
+.menu-item:hover {
+  background-color: transparent;
+  color: inherit;
 }
-.form-style{
-  opacity: 1;
 
+.menu-item a {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  transition-property: all;
+  transition: 0.3s linear;
+}
+
+.menu-item a:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+
+
+.form-control {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: white;
+  background-image: none;
+  background-color: transparent;
+  width: 30%;
+  max-width: 300px;
+  border: none;
+  height: 50px;
+
+}
+
+.form-style{
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.search-text {
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: transparent;
+  width: 80%;
+  border: 0.3px solid #fff;
+  cursor: auto;
+}
+
+
+/* 各ベンダープレフィックスが取れた標準版！！(http://caniuse.com/#search=placeholder-shown) */
+.search-text:placeholder-shown {
+    color: white; }
+/* Google Chrome, Safari, Opera 15+, Android, iOS */
+.search-text::-webkit-input-placeholder {
+    color: white; }
+/* Firefox 18- */
+.search-text:-moz-placeholder {
+    color: white; opacity: 1; }
+/* Firefox 19+ */
+.search-text::-moz-placeholder {
+    color: white; opacity: 1; }
+/* IE 10+ */
+.search-text:-ms-input-placeholder {
+    color: white; }
+
+.search-submit {
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+  transition-property: all;
+  transition: 0.3s linear;
+  height: 100%;
+
+}
+.search-submit:hover {
+  color: inherit;
+  filter: invert();
+}
+
+.footer {
+  height: 50vh;
+  background-color: rgb(22, 22, 22);
+}
+.footer a ,.footer p {
+  color: rgb(186, 174, 174);
+}
+
+.footer a {
+  color: rgb(186, 174, 174);
+  transition-property: all;
+  transition: 0.3s linear;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: rgb(186, 174, 174);
+  opacity: 0.5;
 }
