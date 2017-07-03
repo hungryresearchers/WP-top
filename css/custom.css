@@ -25,6 +25,15 @@ body { font-family: 'M+ C Type-1 (basic latin) Regular','M+ Type-1 (general-j) R
   z-index: -1;/*重なり順序を一番下にしておく*/
 }
 
+.icon-bar {
+  background-color: black;
+}
+.navbar-toggle {
+  float: left;
+}
+
+
+
 .menu-item:hover {
   background-color: transparent;
   color: inherit;
