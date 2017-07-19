@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hungryresearchers/WP-top/issues"
   },
-  "homepage": "https://github.com/hungryresearchers/WP-top#readme"
+  "homepage": "https://github.com/hungryresearchers/WP-top#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
